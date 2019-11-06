@@ -35,8 +35,9 @@
   }
 
   .logo {
-    width: 22%;
+    width: 12%;
     border: solid 1px #c04e28;
+    opacity: 1;
   }
 
   /* .is-active {
