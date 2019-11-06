@@ -1,0 +1,34 @@
+.card-body {
+    text-align: center;
+}
+
+.card .single-image {
+    height: 300px;
+}
+
+.meet-team {
+    position: absolute;
+    /* margin-top: -40px; */
+    z-index: 100;
+    opacity: 0.1;
+    font-size: 100px;
+    width: 100%;
+    left: 0; /*width-100% & left0 = centered absolute text*/
+}
+@media screen and (max-width: 600px) {
+    .meet-team {
+        font-size: 45px;
+        margin-top: 20px;
+    }
+    .card {
+        margin: auto;
+        margin-bottom: 10%;
+    }
+  }
+
+.overlayed-text {
+    margin-top: 150px;
+    text-align: center;
+    color: #7c0a02;
+    }
+    

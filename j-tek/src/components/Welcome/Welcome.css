@@ -1,0 +1,66 @@
+.firm-name {
+margin-top: 150px;
+text-align: center;
+color: #7c0a02;
+}
+
+.group-image {
+  /* margin-top: 80px; */
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.logo {
+  width: 100%;
+  opacity: 0.5;
+}
+
+.row {
+  margin-top: 50px;
+}
+
+hr.style {
+  overflow: visible; /* For IE */
+  padding: 0;
+  border: none;
+  border-top: medium double #333;
+  color: #333;
+  text-align: center;
+  width: 50%;
+}
+hr.style:after {
+  content: "§";
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-size: 1.5em;
+  padding: 0 0.25em;
+  background: white;
+}
+/* .text-block {
+  position: absolute;
+  top:200px;
+  background-color: #7c0a02;
+  color: white;
+  opacity: 0.9;
+  left: 630px;
+  width: 30%;
+  height: auto;
+  padding: 50px 
+} */
+
+
+/* .info {
+  position: relative;
+  background: url("/jtek-logo.jpg") no-repeat
+    center center/cover;
+  height: 100vh;
+  opacity: 0.4;
+} */
+ 
+/* .text {
+  padding-right: 100px;
+  background-color: white;
+  font-size: 22px;
+} */

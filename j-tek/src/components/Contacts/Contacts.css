@@ -1,0 +1,42 @@
+.map-img {
+    max-width: 100%;
+  height: auto;
+    border: solid 1px #c04e28;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.directions {
+    margin-top: 15px;
+}
+
+a {
+    color: #7c0a02;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #d65a31;
+    text-decoration: none;
+}
+
+h3, h4 {
+    color: #7c0a02;  
+}
+.col-sm {
+    /* margin: auto; */
+}
+
+/* .contacts {
+    margin-left: 25px;
+} */
+
+@media screen and (max-width: 600px) {
+    /* .map {
+        margin: auto;
+
+    }
+    .map-img {
+        width: 200px;
+    } */
+  }
