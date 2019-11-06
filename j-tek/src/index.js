@@ -1,5 +1,9 @@
 import "bootstrap/dist/css/bootstrap.min.css";
+
+/*eslint-disable no-unused-vars*/
 import $ from "jquery";
+
+/*eslint-disable no-unused-vars*/
 import Popper from "popper.js";
 
 import React from 'react';
