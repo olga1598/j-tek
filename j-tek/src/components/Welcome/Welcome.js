@@ -4,24 +4,22 @@ import "./Welcome.css";
 const Welcome = () => {
     return (
         <section className="info">
-                <h1 className="firm-name">J-TEK LAW PLLC</h1>
-            <div class="container">
-
-            <hr className="style" />
-
-                <div class="row">
-                    <div class="col-sm">
-                        <img className="group-image" src="/group.jpg" alt="group" />          
+            <h1 className="firm-name">J-TEK LAW PLLC</h1>
+            <div className="container">
+                <hr className="style" />
+                <div className="row">
+                    <div className="col-sm">
+                        <img className="group-image" src="/group.jpg" alt="group" />
                     </div>
-                    <div class="col-sm">
+                    <div className="col-sm">
                         <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
                         <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
                         <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
                     </div>
-                </div>    
+                </div>
             </div>
         </section>
-        
+
     )
 }
 
