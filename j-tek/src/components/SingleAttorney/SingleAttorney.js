@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Link } from "react-router-dom";
 
 const SingleAttorney = (props) => {
     console.log(props)
@@ -9,7 +10,7 @@ const SingleAttorney = (props) => {
                 <div className="card-body">
                     <h5 className="card-title">{props.name}</h5>
                     <p className="card-text">May be some text here.</p>
-                    <a href="#" className="bio">Learn bio...</a>
+                    <Link to={`/attorneys/${props.id}`} className="bio" onClick={() => props.click(props.id)}>Learn bio...</Link>
                 </div>
             </div>
         </div>

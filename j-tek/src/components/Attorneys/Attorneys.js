@@ -8,6 +8,11 @@ class Attorneys extends Component {
         attorneys
     }
 
+    learnBioClickHandle = (id) => {
+        console.log(id)
+        console.log("inside learn more bio")
+    }
+
     render() {
         return (
             <section className="team">
@@ -23,7 +28,15 @@ class Attorneys extends Component {
                     <div className="row">                   
                         {this.state.attorneys.map(attorney => (
                             <div className="col-sm">
-                                <SingleAttorney key={attorney.id} name={attorney.name} info={attorney.info} pic={attorney.image} />
+                                <SingleAttorney 
+                                    key={attorney.id} 
+                                    id={attorney.id}
+                                    name={attorney.name} 
+                                    info={attorney.info} 
+                                    pic={attorney.image}
+                                    clicked={attorney.clicked}
+                                    click={this.learnBioClickHandle} 
+                                />
                             </div>
                         ))}
                     </div>    

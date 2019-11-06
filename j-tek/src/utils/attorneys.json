@@ -3,24 +3,28 @@
         "id": 1,
         "name": "Jeffrey Tekanic",
         "image": "/jeff-t.jpg",
+        "clicked": false,
         "info": ["Jeffrey Tekanic majored in Chemistry and Biology at the California Institute of Technology in Pasadena California, receiving a B.S. with honors in 1988. He then studied law at the University of Chicago Law School, receiving a J.D. in 1991."]
     },
     {
         "id": 2,
         "name": "Scott Wakeman",
         "image": "/scott-w.jpg",
+        "clicked": false,
         "info": ["Scott Wakeman majored in Natural Science at the University of Pennsylvania in Philadelphia, Pennsylvania, receiving a B.A. in 1989. He then studied law at the Cleveland-Marshall College of Law, receiving a J.D. in 1992."]
     },
     {
         "id": 3,
         "name": "Jeffrey Tekanic",
         "image": "/jeff-t.jpg",
+        "clicked": false,
         "info": ["Jeffrey Tekanic majored in Chemistry and Biology at the California Institute of Technology in Pasadena California, receiving a B.S. with honors in 1988. He then studied law at the University of Chicago Law School, receiving a J.D. in 1991."]
     },
     {
         "id": 4,
         "name": "Scott Wakeman",
         "image": "/scott-w.jpg",
+        "clicked": false,
         "info": ["Scott Wakeman majored in Natural Science at the University of Pennsylvania in Philadelphia, Pennsylvania, receiving a B.A. in 1989. He then studied law at the Cleveland-Marshall College of Law, receiving a J.D. in 1992."]
     }
   
