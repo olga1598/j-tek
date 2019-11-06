@@ -1,6 +1,7 @@
 import React from 'react';
 import attorneys from "../../utils/attorneys.json";
 import { Link } from "react-router-dom";
+import "./DetailedBio.css";
 
 const DetailedBio = (props) => {
 //     console.log(props.match.params.id);
@@ -19,7 +20,7 @@ const profile = attorneys[id];
 
                 <div className="row">
                     <div className="col-sm-4">
-                        <img className="group-image" src={profile.image} alt="group" />          
+                        <img className="profile-image" src={profile.image} alt="group" />          
                     </div>
                     <div className="col-sm-8">
                         {profile.info.map(i => (

@@ -6,10 +6,8 @@ const Navbar = () => {
     return (
         <div>
             <nav className="navbar navbar-expand-sm navbar-dark">
-                <div className="navbar-brand">
                     <img src="/jtek-logo.jpg" alt="logo" className="logo" />
-                </div>
-                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+\                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarToggler">
