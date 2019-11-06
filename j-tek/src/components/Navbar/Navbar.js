@@ -1,7 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
-// <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 
 const Navbar = () => {
     return (
@@ -13,7 +12,7 @@ const Navbar = () => {
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
-                <div className="collapse navbar-collapse">
+                <div className="collapse navbar-collapse" id="navbarToggler">
                     <ul className="navbar-nav mr-auto">
                         <li className="nav-item">
                             <NavLink to="/" className="nav-link" activeClassName="is-active" exact>Welcome</NavLink>

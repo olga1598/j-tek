@@ -8,18 +8,18 @@ const Disclaimer = () => {
                 <h1 className="meet">DISCLAIMER.</h1>
                 <h1 className="meet-team">J-TEK LAW PLLC</h1>
             </div>
-            <div class="container">
+            <div className="container">
 
-            <hr className="style" />
-            <br />
+                <hr className="style" />
+                <br />
 
-            <div className="disclaimer-text">
+                <div className="disclaimer-text">
                     <p>
                         The information in this web site is provided by J-TEK LAW PLLC as a courtesy to its clients and the public. Although we endeavor to keep this information current and accurate, no warranty or guarantee is made that it is correct, complete or up-to-date. These materials do not, and are not intended to, constitute legal advice.  You should not rely upon or construe the information in this web site as legal advice, and you should not act or fail to act based upon the information in this web site without seeking professional advice from a licensed practitioner.
                     </p>
 
                     <p>
-                        The presentation of information on this website, or contact with the firm or any of its attorneys on an unsolicited basis, does not establish any form of attorney-client relationship with our firm or with Jeffrey Tekanic. An attorney-client relationship with the firm or Jeffrey Tekanic will only be established after the firm decides that it is willing and able to accept the engagement and the firm and the client enter into a written engagement letter. This website is not an offer to represent you. You should not provide any proprietary, confidential or privileged information to J-TEK LAW PLLC on an unsolicited basis, as unsolicited information will not be treated as confidential. Furthermore, sending an e-mail to J-TEK LAW PLLC also will not be considered as creating an attorney-client relationship or a request to take action with respect to the information unless an attorney-client relationship has already been established. Any request to take action, such as filing a patent application with a patent office, can only be made by an existing client of the firm.                    
+                        The presentation of information on this website, or contact with the firm or any of its attorneys on an unsolicited basis, does not establish any form of attorney-client relationship with our firm or with Jeffrey Tekanic. An attorney-client relationship with the firm or Jeffrey Tekanic will only be established after the firm decides that it is willing and able to accept the engagement and the firm and the client enter into a written engagement letter. This website is not an offer to represent you. You should not provide any proprietary, confidential or privileged information to J-TEK LAW PLLC on an unsolicited basis, as unsolicited information will not be treated as confidential. Furthermore, sending an e-mail to J-TEK LAW PLLC also will not be considered as creating an attorney-client relationship or a request to take action with respect to the information unless an attorney-client relationship has already been established. Any request to take action, such as filing a patent application with a patent office, can only be made by an existing client of the firm.
                     </p>
 
                     <p>
@@ -36,7 +36,7 @@ const Disclaimer = () => {
 
                     <p>
                         Mr. Wakeman is licensed to practice in Virginia, the District of Columbia and before the USPTO.
-                    </p>    
+                    </p>
 
                     <p>
                         Our firm does not intend to practice law in any jurisdiction where we are not licensed. All activity occurring in connection with this website, including but not limited to accessing pages and downloading materials, is presumed to occur in the District of Columbia.
