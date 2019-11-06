@@ -9,8 +9,8 @@ class Attorneys extends Component {
     }
 
     learnBioClickHandle = (id) => {
-        console.log(id)
-        console.log("inside learn more bio")
+        // console.log(id)
+        // console.log("inside learn more bio")
     }
 
     render() {
