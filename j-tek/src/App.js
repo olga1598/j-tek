@@ -12,24 +12,24 @@ import NotFoundPage from "./components/NotFoundPage/NotFoundPage";
 import Footer from "./components/Footer/Footer";
 import DetailedBio from "./components/DetailedBio/DetailedBio";
 
-function App() {
+function App () {
   return (
     <BrowserRouter>
       <section className="wrapper">
-        <Navbar /> 
+        <Navbar />
         <section className="content">
           <Switch>
-            <Route path="/" component={Welcome} exact/>
-            <Route path="/about" component={About} exact/>
-            <Route path="/attorneys" component={Attorneys} exact/>
-            <Route path="/contacts" component={Contacts} exact/>
-            <Route path="/disclaimer" component={Disclaimer} exact/>
-            <Route path="/privacy" component={Privacy} exact/>
+            <Route path="/" component={Welcome} exact />
+            <Route path="/about" component={About} exact />
+            <Route path="/attorneys" component={Attorneys} exact />
+            <Route path="/contacts" component={Contacts} exact />
+            <Route path="/disclaimer" component={Disclaimer} exact />
+            <Route path="/privacy" component={Privacy} exact />
             <Route exact path="/attorneys/:id" component={DetailedBio} />
-            <Route component={NotFoundPage} exact/>       
-          </Switch>  
-      </section>
-      <Footer />
+            <Route component={NotFoundPage} exact />
+          </Switch>
+        </section>
+        <Footer />
       </section>
     </BrowserRouter>
   );
