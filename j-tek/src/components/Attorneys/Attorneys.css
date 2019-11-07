@@ -15,15 +15,20 @@
     width: 100%;
     left: 0; /*width-100% & left0 = centered absolute text*/
 }
-@media screen and (max-width: 600px) {
-    .meet-team {
-        font-size: 45px;
-        margin-top: 20px;
+@media screen and (max-width: 500px) {
+    .overlayed-text {
+        /* font-size: 35px; */
+        margin-top: 60px !important;
     }
 
-    /* .overlayed-text {
-        margin-top: 170px;
-    } */
+    .meet {
+        font-size: 35px;
+    }
+
+    .meet-team {
+        font-size: 35px;
+        padding-top: 15px;
+    }
 
     .card {
         margin: auto;

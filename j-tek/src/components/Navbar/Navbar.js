@@ -13,22 +13,22 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarToggler">
                     <ul className="navbar-nav mr-auto">
                         <li className="nav-item">
-                            <NavLink to="/" className="nav-link" activeClassName="is-active" exact>Welcome</NavLink>
+                            <NavLink to="/" className="nav-link" data-target="#navbarToggler" exact>Welcome</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink to="/about" className="nav-link" activeClassName="is-active">About</NavLink>
+                            <NavLink to="/about" className="nav-link" data-target="#navbarToggler">About</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink to="/attorneys" className="nav-link" activeClassName="is-active">Attorneys</NavLink>
+                            <NavLink to="/attorneys" className="nav-link">Attorneys</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink to="/contacts" className="nav-link" activeClassName="is-active">Contacts</NavLink>
+                            <NavLink to="/contacts" className="nav-link">Contacts</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink to="/disclaimer" className="nav-link" activeClassName="is-active">Disclaimer</NavLink>
+                            <NavLink to="/disclaimer" className="nav-link">Disclaimer</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink to="/privacy" className="nav-link" activeClassName="is-active">Privacy</NavLink>
+                            <NavLink to="/privacy" className="nav-link">Privacy</NavLink>
                         </li>
                     </ul>
                 </div>

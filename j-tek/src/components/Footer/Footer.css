@@ -1,8 +1,23 @@
-.footer-copyright {
-    background: #c25149;
+/* .footer-copyright {
+    background-color: #7c0a02;
     opacity: 0.8;
     width: 100%;
-    /* position: absolute; */
+    position: absolute;
     bottom: 0;
     left: 0;
-}
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    
+
+} */
+
+.footer-copyright {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #7c0a02;
+    color: white;
+   
+   
+
+  }

@@ -14,7 +14,9 @@
   .navbar ul {
     /* display: flex;
     list-style: none; */
-    margin-left: auto;
+    margin:0 !important;
+    flex: 1;
+    justify-content: flex-end;
   }
 
   .navbar a {
@@ -37,8 +39,21 @@
   .logo {
     width: 12%;
     border: solid 1px #c04e28;
-    opacity: 1;
+    /* opacity: 1; */
   }
+
+  @media screen and (max-width: 570px) {
+    .nav-item {
+      line-height: 1rem;
+      overflow: auto;
+    }
+  
+  }
+  
+
+
+
+
 
   /* .is-active {
     background-color:#ff5959;
