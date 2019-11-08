@@ -17,7 +17,6 @@ footer {
     background-color: #7c0a02;
     color: white;
     margin-top: 20px;
-    flex-grow: 0;
     flex-shrink: 0;
 }
 

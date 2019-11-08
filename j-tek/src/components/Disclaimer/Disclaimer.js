@@ -9,10 +9,7 @@ const Disclaimer = () => {
                 <h1 className="meet-team">J-TEK LAW PLLC</h1>
             </div>
             <div className="container">
-
                 <hr className="style" />
-                <br />
-
                 <div className="disclaimer-text">
                     <p>
                         The information in this web site is provided by J-TEK LAW PLLC as a courtesy to its clients and the public. Although we endeavor to keep this information current and accurate, no warranty or guarantee is made that it is correct, complete or up-to-date. These materials do not, and are not intended to, constitute legal advice.  You should not rely upon or construe the information in this web site as legal advice, and you should not act or fail to act based upon the information in this web site without seeking professional advice from a licensed practitioner.

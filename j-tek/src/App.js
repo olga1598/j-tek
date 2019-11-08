@@ -16,7 +16,7 @@ function App () {
   return (
     <BrowserRouter>
       <section className="wrapper">
-        <Navbar />
+        <Navbar className="header" />
         <section className="content">
           <Switch>
             <Route path="/" component={Welcome} exact />
@@ -29,7 +29,7 @@ function App () {
             <Route component={NotFoundPage} exact />
           </Switch>
         </section>
-        <Footer />
+        <Footer className="footer" />
       </section>
     </BrowserRouter>
   );
