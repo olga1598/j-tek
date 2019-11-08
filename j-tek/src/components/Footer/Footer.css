@@ -12,16 +12,19 @@
 
 } */
 
-footer {
+/* footer {
     padding: 20px 0;
     background-color: #7c0a02;
     color: white;
     margin-top: 20px;
     flex-shrink: 0;
-}
+} */
 
 .footer-copyright {
     font-size: 14px;
     text-align: center;
-    color: #85f1f1;
+    color: white;
+    background-color: #7c0a02;
+    padding: 10px 0;
+
 }

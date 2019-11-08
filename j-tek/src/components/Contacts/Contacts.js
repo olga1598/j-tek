@@ -12,14 +12,17 @@ const Contacts = () => {
 
                 <hr className="style" />
                 <br />
+                
                 <p className="inquiries">
                     General inquiries to the firm may be sent to mail@jtek-law.com. However, please understand that any information sent to us on an unsolicited basis may not be treated as confidential. Nor will sending an e-mail to us generally be considered as a request to take action with respect to the information. Any request to take action, such as filing a patent application with a patent office, can only be made by an existing client of the firm. Please review the firm’s full disclaimer and privacy statements before communicating through www.jtek-law.com or mail@jtek-law.com.
-            </p>
+                </p>
 
                 <div className="row">
                     <div className="col-sm-5">
                         <p>
-                            <img className="map-img" src="./map.png" alt="map" />
+                            <a href="https://www.google.com/maps/place/4000+Legato+Rd,+Fairfax,+VA+22033/@38.8658032,-77.367386,17z/data=!3m1!4b1!4m5!3m4!1s0x89b64f449e0d32d3:0xaefaec3eacdd3326!8m2!3d38.865799!4d-77.365192" rel="noopener noreferrer" target="_blank">
+                                <img className="map-img" src="./map.png" alt="map" />
+                            </a>
                         </p>
                         <p>
                             <a href="https://www.google.com/maps/place/4000+Legato+Rd,+Fairfax,+VA+22033/@38.8658032,-77.367386,17z/data=!3m1!4b1!4m5!3m4!1s0x89b64f449e0d32d3:0xaefaec3eacdd3326!8m2!3d38.865799!4d-77.365192" rel="noopener noreferrer" target="_blank">

@@ -37,7 +37,7 @@ class Navbar extends React.Component {
                 <div className={`${classOne}`} id="navbarToggler">
                     <ul className="navbar-nav mr-auto" onClick={this.hideNavbar}>
                         <li className="nav-item">
-                            <NavLink to="/" className="nav-link">Welcome</NavLink>
+                            <NavLink to="/" className="nav-link" exact>Welcome</NavLink>
                         </li>
                         <li className="nav-item">
                             <NavLink to="/about" className="nav-link">About</NavLink>

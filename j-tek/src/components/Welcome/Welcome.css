@@ -1,5 +1,5 @@
 .firm-name {
-margin-top: 150px;
+/* margin-top: 150px; */
 text-align: center;
 color: #7c0a02;
 }
@@ -40,9 +40,9 @@ hr.style:after {
 }
 
 @media screen and (max-width: 570px) {
-  .firm-name {
+  /* .firm-name {
     margin-top: 70px;
-  }
+  } */
 
 }
 
