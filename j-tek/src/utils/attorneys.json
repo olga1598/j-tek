@@ -9,24 +9,16 @@
     {
         "id": 2,
         "name": "Scott Wakeman",
-        "image": "/scott-w.jpg",
+        "image": "/scott.jpg",
         "clicked": false,
         "info": ["Scott Wakeman majored in Natural Science at the University of Pennsylvania in Philadelphia, Pennsylvania, receiving a B.A. in 1989. He then studied law at the Cleveland-Marshall College of Law, receiving a J.D. in 1992.", "He was admitted to the Ohio State Bar in 1992, the District of Columbia Bar in 1998, and the Virginia State Bar in 2004. He was also admitted to practice before the United Stated Patent & Trademark Office in 1994.", "Scott has practiced with large and small law firms in Ohio, Washington, DC and Virginia and has been a partner in two intellectual property firms at different times since 2000. Scott’s practice has been primarily directed to patent prosecution and opinion work in the mechanical, electrical, computer and software arts, including Voice over Internet Protocol (VoIP) devices and networks, optical fiber networks, optical and electrical connectors, semiconductor memory devices, automotive components and a wide variety of industrial machinery and related controls. "]
     },
     {
         "id": 3,
-        "name": "Jeffrey Tekanic",
-        "image": "/jeff-t.jpg",
+        "name": "Mark Ussai",
+        "image": "/mark.jpg",
         "clicked": false,
-        "info": ["Jeffrey Tekanic majored in Chemistry and Biology at the California Institute of Technology in Pasadena California, receiving a B.S. with honors in 1988. He then studied law at the University of Chicago Law School, receiving a J.D. in 1991."]
-    },
-    {
-        "id": 4,
-        "name": "Scott Wakeman",
-        "image": "/scott-w.jpg",
-        "clicked": false,
-        "info": ["Scott Wakeman majored in Natural Science at the University of Pennsylvania in Philadelphia, Pennsylvania, receiving a B.A. in 1989. He then studied law at the Cleveland-Marshall College of Law, receiving a J.D. in 1992."]
-    }
-  
+        "info": ["Mark Ussai majored in Mechanical Engineering at Case Western Reserve University in Cleveland Ohio, graduating with a Bachelor of Science in 1989.  Mark worked several years as a manufacturing engineer in the automotive industry prior to entering law school at the University of Akron, receiving a J.D., cum laude, in 1995.", "He was admitted to the Bar of the Commonwealth of Pennsylvania in 1995 and before the United States Patent and Trademark Office in 1998.", "Mark was the Chief Patent Counsel of SKF USA Inc. for over eleven years, a position in which he managed the US intellectual property rights of a global leader in bearings, seals, lubrication systems and condition monitoring devices.  Prior to joining SKF, he was a partner in Michael Best & Friedrich, a large-sized law firm including a substantial patent group and prior to that, was an inhouse patent attorney at Ingersoll Rand, where he managed the worldwide patent rights of the Construction Equipment and Specialty Vehicle business sectors.", "Mark’s practice is primarily focused on patent preparation and prosecution in the mechanical, electromechanical and applied software arts, but he also has extensive experience in infringement and validity analysis as well as intellectual property contracts.  He has drafted hundreds of patent applications covering products such as rolling element and plain bearings, automotive and industrial seals, lubrication systems, condition monitoring devices, magnetic bearings, linear actuators, road paving and compacting vehicles, road milling machines, material transport vehicles, compressors, pumps, golf cars, down-hole drilling equipment, special machinery and electromechanical and mechanical locks."]
+    }  
 ]
   

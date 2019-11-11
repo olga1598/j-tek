@@ -5,16 +5,16 @@ const Welcome = () => {
     return (
         <section className="info">
             <h1 className="firm-name">J-TEK LAW PLLC</h1>
+            <h2 className="firm">Intellectual Property legal Services</h2>
             <div className="container">
                 <hr className="style" />
                 <div className="row">
-                    <div className="col-sm">
-                        <img className="group-image" src="/group.jpg" alt="group" />
+                    <div className="col-sm-7">
+                        <img className="group-image" src="/welcome-page-group.jpg" alt="group" />
                     </div>
-                    <div className="col-sm">
-                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                    <div className="col-sm-5">
+                        <h3>Firm news:</h3>
+                        <p className="welcome-text">J-TEK is delighted to welcome <strong>Mark A. Ussai</strong>, a talented and experienced patent attorney in the mechanical, electromechanical and applied software technical fields, to our firm.  Please learn more about Mark on our Attorneys page.  </p>
                     </div>
                 </div>
             </div>
@@ -24,6 +24,16 @@ const Welcome = () => {
 }
 
 export default Welcome;
+
+
+// <div className="row">
+// <div className="col-sm">
+//     <img className="group-image" src="/welcome-page-group.jpg" alt="group" />
+// </div>
+// <div className="col-sm">
+//     <p className="welcome-text">J-TEK is delighted to welcome Mark A. Ussai, a talented and experienced patent attorney in the mechanical, electromechanical and applied software technical fields, to our firm.  Please learn more about Mark on our Attorneys page.  </p>
+// </div>
+// </div>
 
 
 // <p className="text">

@@ -8,10 +8,10 @@ class Attorneys extends Component {
         attorneys
     }
 
-    learnBioClickHandle = (id) => {
-        // console.log(id)
-        // console.log("inside learn more bio")
-    }
+    // learnBioClickHandle = (id) => {
+    //     console.log(id)
+    //     console.log("inside learn more bio")
+    // }
 
     render() {
         return (
@@ -35,7 +35,6 @@ class Attorneys extends Component {
                                     info={attorney.info} 
                                     pic={attorney.image}
                                     clicked={attorney.clicked}
-                                    click={this.learnBioClickHandle} 
                                 />
                             </div>
                         ))}
@@ -49,43 +48,3 @@ class Attorneys extends Component {
 export default Attorneys
 
 
-// <div class="col-sm">
-// <div class="card" style={{"width": "14rem"}}>
-//     <img className="single-image" src="/pic1.jpg" alt="group" />          
-//     <div className="card-body">
-//         <h5 className="card-title">Jim Bim</h5>
-//         <p className="card-text">May be some text here.</p>
-//         <a href="#" className="bio">Learn bio...</a>
-//     </div>
-// </div>
-// </div>
-// <div className="col-sm">
-// <div class="card" style={{"width": "14rem"}}>
-//     <img className="single-image" src="/pic1.jpg" alt="group" />          
-//     <div className="card-body">
-//         <h5 className="card-title">Jim Bim</h5>
-//         <p className="card-text">May be some text here.</p>
-//         <a href="#" className="bio">Learn bio...</a>
-//     </div>
-// </div>
-// </div>
-// <div className="col-sm">
-// <div class="card" style={{"width": "14rem"}}>
-//     <img className="single-image" src="/pic3.jpg" alt="group" />          
-//     <div className="card-body">
-//         <h5 className="card-title">Jim Bim</h5>
-//         <p className="card-text">May be some text here.</p>
-//         <a href="#" className="bio">Learn bio...</a>
-//     </div>
-// </div>
-// </div>
-// <div class="col-sm">
-// <div class="card" style={{"width": "14rem"}}>
-//     <img className="single-image" src="/pic3.jpg" alt="group" />          
-//     <div className="card-body">
-//         <h5 className="card-title">Jim Bim</h5>
-//         <p className="card-text">May be some text here.</p>
-//         <a href="#" className="bio">Learn bio...</a>
-//     </div>
-// </div>
-// </div>

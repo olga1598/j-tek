@@ -23,13 +23,6 @@ a:hover {
 h3, h4 {
     color: #7c0a02;  
 }
-.col-sm {
-    /* margin: auto; */
-}
-
-/* .contacts {
-    margin-left: 25px;
-} */
 
 @media screen and (max-width: 600px) {
     /* .map {

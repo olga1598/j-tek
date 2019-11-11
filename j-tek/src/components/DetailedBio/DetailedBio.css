@@ -3,3 +3,21 @@
     margin-right: auto;
     display: block;  
 }
+
+.bio:hover {
+    background-color: #7c0a02;
+    color: #d65a31;
+
+}
+
+@media screen and (max-width: 500px) {
+    .col-sm-8 {
+        margin-top: 20px;
+    }
+    .row {
+        margin-top: 10px;
+    }
+    .firm-name {
+        font-size: 30px;
+    }
+}

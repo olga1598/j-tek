@@ -1,0 +1,16 @@
+.card .single-image {
+    height: 300px;
+}
+
+.card {
+    margin: auto;
+    margin-top: 10px;
+}
+
+
+@media screen and (max-width: 500px) {
+    .card {
+        margin: auto;
+        margin-bottom: 10%;
+    }
+}

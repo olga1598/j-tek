@@ -3,21 +3,17 @@ import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 
 class Navbar extends React.Component {
-    constructor(props) {
-        super(props);
-        this.toggleNavbar = this.toggleNavbar.bind(this);
-        this.hideNavbar = this.hideNavbar.bind(this);
-        this.state = {
-            collapsed: true,
-        };
-    }
-    toggleNavbar () {
+    state = {
+        collapsed: true,
+    };
+
+    toggleNavbar = () => {
         this.setState({
             collapsed: !this.state.collapsed,
         });
     }
 
-    hideNavbar () {
+    hideNavbar = () => {
         this.setState({
             collapsed: true,
         });

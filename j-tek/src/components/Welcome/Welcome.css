@@ -1,27 +1,30 @@
 .firm-name {
-/* margin-top: 150px; */
 text-align: center;
 color: #7c0a02;
 }
 
+.firm {
+  text-align: center;
+  color: #7c0a02;
+  opacity: 0.8;  
+}
+
 .group-image {
-  /* margin-top: 80px; */
   position: relative;
   width: 100%;
   height: auto;
 }
 
-/* .logo {
-  width: 100%;
-  opacity: 0.5;
-} */
+.welcome-text {
+  font-size: 20px;
+}
 
 .row {
   margin-top: 50px;
 }
 
 hr.style {
-  overflow: visible; /* For IE */
+  overflow: visible; 
   padding: 0;
   border: none;
   border-top: medium double #333;
@@ -40,9 +43,13 @@ hr.style:after {
 }
 
 @media screen and (max-width: 570px) {
-  /* .firm-name {
-    margin-top: 70px;
-  } */
+  .firm {
+    font-size: 20px;
+  }
+
+  .welcome-text, h3 {
+    font-size: 18px;
+  }
 
 }
 
