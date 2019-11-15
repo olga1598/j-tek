@@ -9,12 +9,12 @@ const Welcome = () => {
             <div className="container">
                 <hr className="style" />
                 <div className="row">
-                    <div className="col-sm-7">
-                        <img className="group-image" src="/welcome-page-group.jpg" alt="group" />
-                    </div>
                     <div className="col-sm-5">
                         <h3>Firm news:</h3>
                         <p className="welcome-text">J-TEK is delighted to welcome <strong>Mark A. Ussai</strong>, a talented and experienced patent attorney in the mechanical, electromechanical and applied software technical fields, to our firm.  Please learn more about Mark on our Attorneys page.  </p>
+                    </div>
+\                    <div className="col-sm">
+                        <img className="group-image" src="/welcome-page-group.jpg" alt="group" />
                     </div>
                 </div>
             </div>

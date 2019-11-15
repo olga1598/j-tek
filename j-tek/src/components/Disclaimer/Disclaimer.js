@@ -34,11 +34,15 @@ const Disclaimer = () => {
                     </p>
 
                     <p>
-                        Mr. Wakeman is licensed to practice in Virginia, the District of Columbia and before the USPTO.
+                        Mr. Wakeman is licensed to practice in Virginia, Ohio and before the USPTO.
                     </p>
 
                     <p>
-                        Our firm does not intend to practice law in any jurisdiction where we are not licensed. All activity occurring in connection with this website, including but not limited to accessing pages and downloading materials, is presumed to occur in the District of Columbia.
+                        Mr. Ussai is licensed to practice in Pennsylvania and before the USPTO.
+                    </p>
+
+                    <p>
+                        Our firm does not intend to practice law in any jurisdiction where we are not licensed. All activity occurring in connection with this website, including but not limited to accessing pages and downloading materials, is presumed to occur in the Virginia.
                     </p>
 
                     <p>

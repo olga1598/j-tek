@@ -43,7 +43,7 @@ const Contacts = () => {
                             <br />
                             <span>
                                 E-mail address:
-                                    <a href="mailto: jeff@jtek-law.com"> jeff@jtek-law.com
+                                    <a href="mailto: mail@jtek-law.com"> mail@jtek-law.com
                                     </a>
                             </span>
                             <br />
