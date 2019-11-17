@@ -21,7 +21,7 @@ const Contacts = () => {
                     <div className="col-sm-5">
                         <p>
                             <a href="https://www.google.com/maps/place/4000+Legato+Rd,+Fairfax,+VA+22033/@38.8658032,-77.367386,17z/data=!3m1!4b1!4m5!3m4!1s0x89b64f449e0d32d3:0xaefaec3eacdd3326!8m2!3d38.865799!4d-77.365192" rel="noopener noreferrer" target="_blank">
-                                <img className="map-img" src="./map.png" alt="map" />
+                                <img className="map-img" src="./map.jpeg" alt="map" />
                             </a>
                         </p>
                         <p>
