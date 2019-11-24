@@ -65,6 +65,7 @@ const Contacts = () => {
                                 <p>
                                     For those traveling by public transportation, our building is six miles (ten kilometers) from the Vienna Station stop on the Orange Metro line. Taxicabs are available at the Metro station. You can also take the Fairfax Connector Bus 621 from the south exit of the Vienna Metro to the Fairfax Towne Center stop directly across from our building.
                                 </p>
+                                <h5>Web Design by <a href="mailto:olga.repnitsyna@gmail.com">Olga Repnitsyna</a></h5>
                             </div>
                         </div>
                     </div>
